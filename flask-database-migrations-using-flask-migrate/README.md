@@ -19,3 +19,13 @@ python3 -m flask db migrate
 ```
 python3 -m flask db upgrade
 ```
+
+## Downgrade migrations
+```
+python3 -m flask db downgrade
+```
+
+## Docker
+```
+docker-compose up --build -d
+```
