@@ -1,0 +1,4 @@
+Flask==2.2.3
+pytest==7.2.2
+Flask-Migrate==4.0.4
+dependency-injector==4.41.0
