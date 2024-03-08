@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  windows-python:
+    build: .
+    container_name: win_py_container
+    platform: windows
+    volumes:
+      - './:C:/user/src/app'
